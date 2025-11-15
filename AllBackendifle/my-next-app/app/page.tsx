@@ -55,12 +55,12 @@ const HomePage: React.FC = () => {
               มาร่วมเป็นส่วนหนึ่งกับการทำให้ชุมชนของเราปลอดภัยมากขึ้น
             </p>
             <div className="space-x-4">
-              <button className="bg-gray-800 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+              <Link href={"warmDog"} className="bg-gray-800 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
                 รายงานสุนัขจรจัด
-              </button>
-              <button className="bg-white hover:bg-gray-200 text-gray-800 font-bold py-3 px-6 rounded-lg transition duration-300">
+              </Link>
+              <Link href={"viewfindDog"} className="bg-white hover:bg-gray-200 text-gray-800 font-bold py-3 px-6 rounded-lg transition duration-300">
                 ตามหาสุนัขหาย
-              </button>
+              </Link>
             </div>
           </div>
         </section>
@@ -97,9 +97,9 @@ const HomePage: React.FC = () => {
               <p className="text-gray-600 mb-6">
                 รายงานสุนัขจรจัดเพื่อทำให้บริเวณชุมชนของคุณปลอดภัยมากขึ้น
               </p>
-              <button className="bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded-lg">
+              <Link href={"warmDog"} className="bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded-lg">
                 รายงานสุนัขจรจัด
-              </button>
+              </Link>
             </div>
 
             {/* Card 2: เจ้าของสุนัข */}
@@ -127,12 +127,12 @@ const HomePage: React.FC = () => {
                 แจ้งสุนัขที่หาย หรือค้นหาสุนัขที่พบล่าสุด
               </p>
               <div className="space-y-4">
-                <button className="block w-full bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded-lg">
+                <Link href={"photofindDog"} className="block w-full bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded-lg">
                   แจ้งสุนัขหาย
-                </button>
-                <button className="block w-full bg-white border border-gray-300 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded-lg">
+                </Link>
+                <Link href={"viewfindDog"} className="block w-full bg-white border border-gray-300 hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded-lg">
                   ตามหาสุนัขหาย
-                </button>
+                </Link>
               </div>
             </div>
 
