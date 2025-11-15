@@ -1,3 +1,4 @@
+import Link from 'next/dist/client/link';
 import Head from 'next/head';
 import Image from 'next/image';
 
@@ -32,9 +33,9 @@ const HomePage: React.FC = () => {
                 </svg>
                 <span>หน้าหลัก</span>
               </div>
-              <a href="#" className="hover:text-gray-900">รายงานสุนัขจรจัด</a>
-              <a href="#" className="hover:text-gray-900">แจ้งสุนัขหาย</a>
-              <a href="#" className="hover:text-gray-900">ตามหาสุนัขหาย</a>
+              <Link href={"warmDog"} className="hover:text-gray-900">รายงานสุนัขจรจัด</Link>
+              <Link href={"photofindDog"} className="hover:text-gray-900">แจ้งสุนัขหาย</Link>
+              <Link href={"viewfindDog"} className="hover:text-gray-900">ตามหาสุนัขหาย</Link>
             </div>
             <a href="#" className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">แดชบอร์ด</a>
           </div>
